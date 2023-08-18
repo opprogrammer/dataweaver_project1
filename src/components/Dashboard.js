@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getDetails } from "../actions/details";
 import { Link,useNavigate} from "react-router-dom";
 import { userLogout } from "../actions/actions";
-import { getUserDetails } from "../reducers/reducers";
+//import { getUserDetails } from "../reducers/reducers";
 
 const Dashboard = () => {
   // const [token,setToken]=useState('');
